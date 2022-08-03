@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CSOPatcher">
+      <UniqueIdentifier>{1ef40835-d305-4831-b981-432f7411903f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AhnCheat">
+      <UniqueIdentifier>{30132617-5cf1-4145-a125-84dc3f0b80da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{cea5f783-29b7-4466-a06c-475c3c093616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{cf4ab112-0833-4d71-bf5f-b91784a467a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameRCF">
+      <UniqueIdentifier>{e7b3b977-31d7-4d30-a44a-de6d5e5556f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSOWrapper">
+      <UniqueIdentifier>{a45a27e1-e049-4ae5-af45-394ff90d6985}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSOPatcher.cpp">
+      <Filter>CSOPatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="AhnCheat.cpp">
+      <Filter>AhnCheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="csv.c">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOffset.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineMsg.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CSOWrapper.cpp">
+      <Filter>CSOWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRCF.cpp">
+      <Filter>GameRCF</Filter>
+    </ClCompile>
+    <ClCompile Include="DispatchRecv.cpp">
+      <Filter>CSOWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePack.cpp">
+      <Filter>CSOWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CAuctionSystem.cpp">
+      <Filter>CSOWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="CVars.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SagaConnect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSOPatcher.h">
+      <Filter>CSOPatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="AhnCheat.h">
+      <Filter>AhnCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSDK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AhnProcess.h">
+      <Filter>AhnCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="CsoStudiHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="csv.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOffset.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClienBase.hpp">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClient.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineMsg.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineMSG.hpp">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CSOWrapper.h">
+      <Filter>CSOWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameTask.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRCF.h">
+      <Filter>GameRCF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\RCF\RCFCsoStudioInterface.hpp">
+      <Filter>GameRCF</Filter>
+    </ClInclude>
+    <ClInclude Include="DispatchRecv.h">
+      <Filter>CSOWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePack.h">
+      <Filter>CSOWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Connect\ShareDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAuctionSystem.h">
+      <Filter>CSOWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="CVars.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CsoStudioServerClass</class>
+ <widget class="QWidget" name="CsoStudioServerClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1723</width>
+    <height>856</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CsoStudioServer</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1321</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>首页</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>551</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>195</width>
+        <height>52</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QCheckBox" name="checkBox">
+         <property name="text">
+          <string>开机自启动</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox">
+         <item>
+          <property name="text">
+           <string>延迟10秒</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>延迟30秒</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>延迟一分钟</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>延迟5分钟</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>20</y>
+        <width>361</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLineEdit" name="lineEdit_GamePath">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="pushButton_SetGamePath">
+         <property name="text">
+          <string>选择游戏目录</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_9">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>0</y>
+       <width>761</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QGroupBox" name="groupBox_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>761</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>卡号登陆</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QLineEdit" name="lineEdit_AgentUser"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="pushButton_Login">
+         <property name="text">
+          <string>登陆</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QCheckBox" name="checkBox_2">
+         <property name="text">
+          <string>下次自动登录</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>150</y>
+        <width>256</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;脚本交流反馈群:780354254&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>游戏监控</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget_GameMonitor">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>1311</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>游戏大区</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>游戏账号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>游戏密码</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>游戏等级</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>游戏昵称</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>欢乐积分</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>游戏金币</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>仓库密码</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>账号状态</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>执行任务</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>任务状态</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>账号心跳</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_8">
+     <property name="geometry">
+      <rect>
+       <x>1060</x>
+       <y>410</y>
+       <width>241</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>账号导入</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_BatchImpUser">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>账号批量导入</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_BatchExpUser">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>20</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>账号批量导出</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UserCfgDel">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>60</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>账号配置删除</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UserConfigLoad">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>账号配置读取</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UserPassExport">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>140</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>账号密码导出</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UserWarehouseExport">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>100</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>仓库配置导出</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_UserConfigSava">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>账号配置保存</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>410</y>
+       <width>231</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QCheckBox" name="checkBox_StartGame">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>批量启动游戏</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>游戏拍卖行</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget_GameTaskAuction">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1311</width>
+       <height>391</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>任务ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>任务类型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>物品名称</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>购买价格</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>购买次数</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>彩漆类型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>彩漆数量</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>彩漆列表</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>强化等级</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>强化属性</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>属性列表</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>任务状态</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>派发账号</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>221</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>拍卖会配置</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_SavaAuctionCFG">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>保存拍卖会配置</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ReadAuctionCFG">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>20</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>读取拍卖会配置</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_DelAuctionCFG">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>删除拍卖会配置</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ViewAuction">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>60</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>刷新拍卖会界面</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>400</y>
+       <width>221</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>道具信息</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_ViewWeapon">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>查看武器列表</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_ViewPaint">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>20</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>查看彩漆列表</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>400</y>
+       <width>361</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>全局功能</string>
+     </property>
+     <widget class="QCheckBox" name="checkBox_AutoAuction1000M">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>151</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>自动参加特别拍卖活动</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget_RackingItem">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>400</y>
+       <width>521</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>游戏账号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>上架位置</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>上架物品</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>上架时间</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>一口价</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_debugLog">
+   <property name="geometry">
+    <rect>
+     <x>1320</x>
+     <y>0</y>
+     <width>401</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <property name="undoRedoEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="CsoStudioServer.qrc"/>
+ </resources>
+ <connections/>
+</ui>

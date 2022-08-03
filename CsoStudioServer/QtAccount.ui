@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtAccountClass</class>
+ <widget class="QMainWindow" name="QtAccountClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>280</width>
+    <height>273</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>添加账号信息</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>281</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QComboBox" name="comboBox_GameReg">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>10</y>
+       <width>111</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>电信一区</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>电信二区</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>网通一区</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>游戏大区:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>游戏账号:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_GameAccount">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>40</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>游戏密码:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_GamePassWord">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>70</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>仓库密码:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_Game2ndPassWord">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>100</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>执行任务:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_GameTask">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>130</y>
+       <width>111</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>大厅挂机</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>生化Z联赛积分</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>生化Z多人挂机</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>批量登陆检测</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>缔造者单人挂机</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>拍卖行</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>挂机活动</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>大灾变通关</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Submit">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>190</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确认</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
